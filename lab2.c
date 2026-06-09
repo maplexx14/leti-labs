@@ -180,8 +180,6 @@ int main(){
         inputB = usInput();
         double b = stringToDouble(inputB, 100);
 
-    
-        
         // через math.h
         double solH = MathHSolution(a, b);
         printw("math.h: %lf\n\r", solH);
@@ -198,6 +196,4 @@ int main(){
         refresh();
         getch();
     }
-    
-
 }
